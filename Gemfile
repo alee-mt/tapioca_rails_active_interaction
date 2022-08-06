@@ -13,6 +13,7 @@ gem 'puma', '~> 5.0'
 gem 'sass-rails', '>= 6'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'sorbet-runtime'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -21,6 +22,8 @@ end
 
 group :development do
   gem 'listen', '~> 3.3'
+  gem 'sorbet'
+  gem 'tapioca', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
