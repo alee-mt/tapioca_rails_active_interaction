@@ -1,5 +1,7 @@
 # typed: strict
 
+require 'active_interaction'
+
 module Tapioca
   module Compilers
     class ActiveInteraction < Tapioca::Dsl::Compiler
